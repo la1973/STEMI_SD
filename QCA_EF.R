@@ -1,7 +1,7 @@
 library(QCA)
 library(VennDiagram)
 
-data <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/QCA_EF.csv")
+data <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/STEMI_SD/QCA_EF.csv")
 View(data)
 data
 data<-na.omit(data)

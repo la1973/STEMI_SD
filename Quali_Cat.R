@@ -5,9 +5,9 @@ library(tcltk2)
 library(ggplot2)
 
 setwd("/Users/lucianodeandrade/Desktop")
-quali1 <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/Quali_1.csv", sep=",")
+quali1 <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/STEMI_SD/Quali_1.csv", sep=",")
 quali1
-#quali1 <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/Quali_2.csv", sep=",")
+#quali1 <- read.csv("/Users/lucianodeandrade/Desktop/Repositorio/STEMI_SD/Quali_2.csv", sep=",")
 #quali1
 
 summary(quali1)
